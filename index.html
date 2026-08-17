@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pavan Kumar Malladi — Senior Data &amp; Full-Stack Engineer</title>
+<title>Pavan Kumar Malladi — Senior Data &amp; Full Stack Engineer</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Mono:wght@300;400;500&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 <style>
@@ -11,8 +11,8 @@
     --ink: #1A1F2E;
     --ink2: #222840;
     --ink3: #2C3450;
-    --muted: #AEB9D3;
-    --ghost: #DCE2F0;
+    --muted: #C8D1E3;
+    --ghost: #EEF2FA;
     --paper: #F4F2ED;
     --paper2: #EAE7DF;
     --accent: #E0B86A;
@@ -316,7 +316,8 @@
 
   .exp-desc {
     font-size: 14px;
-    color: #E2E7F2;
+    color: #F0F3FA;
+    font-weight: 400;
     line-height: 1.7;
     margin-bottom: 16px;
   }
@@ -331,17 +332,19 @@
 
   .exp-bullets li {
     font-size: 13px;
-    color: #D8E0F2;
+    color: #E8EDF7;
+    font-weight: 400;
     line-height: 1.6;
     padding-left: 16px;
     position: relative;
   }
   .exp-bullets li::before {
-    content: '—';
+    content: '◆';
     position: absolute;
     left: 0;
     color: var(--accent);
-    font-size: 11px;
+    font-size: 7px;
+    top: 5px;
   }
 
   .exp-stack {
@@ -354,7 +357,7 @@
   .stack-tag {
     font-family: 'DM Mono', monospace;
     font-size: 10px;
-    color: #CAD3E8;
+    color: #DEE5F2;
     border: 1px solid rgba(255,255,255,0.15);
     padding: 3px 8px;
     letter-spacing: 0.5px;
@@ -411,7 +414,8 @@
 
   .project-desc {
     font-size: 13px;
-    color: #D8E0F2;
+    color: #EEF2FA;
+    font-weight: 400;
     line-height: 1.7;
     margin-bottom: 18px;
   }
@@ -458,8 +462,8 @@
 
   .edu-degree {
     font-size: 13px;
-    color: #E0E6F4;
-    font-weight: 400;
+    color: #F0F3FA;
+    font-weight: 500;
     margin-bottom: 6px;
     line-height: 1.4;
   }
@@ -630,9 +634,9 @@
   <!-- HEADER -->
   <header>
     <div class="header-bg-num">17</div>
-    <div class="header-tag">Senior Data &amp; Full-Stack Engineer · Phoenix, AZ</div>
+    <div class="header-tag">Senior Data &amp; Full Stack Engineer · Phoenix, AZ</div>
     <h1 class="header-name">Pavan Kumar <em>Malladi</em></h1>
-    <div class="header-title">Cloud Data Engineering · Big Data · AI Platforms · Full-Stack</div>
+    <div class="header-title">Cloud Data Engineering · Big Data · AI Platforms · Full Stack</div>
     <div class="header-meta">
       <div class="meta-item">
         <div class="meta-dot"></div>
@@ -683,6 +687,9 @@
     <span class="skill-tag">OAuth 2.0 / OpenID Connect</span>
     <span class="skill-tag">Secrets Management</span>
     <span class="skill-tag">GitHub Enterprise</span>
+    <span class="skill-tag">GitHub Enterprise Cloud</span>
+    <span class="skill-tag">GitHub Actions</span>
+    <span class="skill-tag">CI/CD Pipelines</span>
     <span class="skill-tag">DevOps</span>
     <span class="skill-tag">React</span>
     <span class="skill-tag">FastAPI</span>
@@ -709,31 +716,33 @@
       </div>
       <div class="exp-right">
         <div class="exp-role">Senior Data Engineer <span style="font-size:14px;color:var(--muted);font-family:'DM Mono',monospace;font-style:normal;">(Contractor)</span></div>
-        <p class="exp-desc">Senior Data Engineer delivering production-grade ingestion, transformation, and orchestration pipelines for enterprise financial data platforms. Builds scalable GCP solutions using BigQuery, Cloud Composer, Pub/Sub, Cloud SQL, Python, Java, and secure API integrations within highly governed environments.</p>
+        <p class="exp-desc">Senior Data Engineer delivering reliable ingestion, transformation, and orchestration solutions for enterprise financial data platforms. Builds scalable services on GCP using BigQuery, Cloud Composer, Pub/Sub, Cloud SQL, Python, Java, and secure API integrations in highly governed environments.</p>
         <ul class="exp-bullets">
-          <li>Design and maintain complex Apache Airflow DAGs in Cloud Composer, using modular builder patterns and TaskGroups to orchestrate ingestion, processing, validation, and post-processing workflows</li>
-          <li>Build scalable batch and event-driven ingestion pipelines using Pub/Sub, Python, Java, Cloud SQL, BigQuery, and Cloud Storage</li>
-          <li>Develop and optimize large-scale BigQuery transformations using performance-tuned SQL, partitioning, clustering, and workload-management practices</li>
+          <li>Design and maintain complex Apache Airflow DAGs in Cloud Composer, using modular builder patterns and TaskGroups to orchestrate ingestion, processing, validation, and completion workflows</li>
+          <li>Build scalable batch and event based ingestion pipelines using Pub/Sub, Python, Java, Cloud SQL, BigQuery, and Cloud Storage</li>
+          <li>Develop and optimize large BigQuery transformations through efficient SQL, partitioning, clustering, and workload management</li>
           <li>Engineer secure REST API integrations and use Postman to validate endpoints, request payloads, authentication flows, and system responses</li>
-          <li>Implement data-quality checks, error handling, retry mechanisms, monitoring, audit controls, and operational support for production pipelines</li>
-          <li>Apply enterprise identity and access-management controls, including role-based authorization, token-based authentication, and secure secrets handling</li>
-          <li>Manage version-controlled pipeline codebases and multi-environment deployments through GitHub Enterprise within an enterprise DevOps environment</li>
-          <li>Collaborate with source-system, platform, security, and analytics teams to deliver reliable and cost-optimized data solutions on GCP</li>
+          <li>Implement data quality checks, error handling, retry mechanisms, monitoring, audit controls, and operational support for production pipelines</li>
+          <li>Apply enterprise identity and access management controls, including role based authorization, token based authentication, and secure secrets handling</li>
+          <li>Build and maintain CI/CD pipelines with GitHub Actions to automate validation, testing, and deployments across development, QA, and production environments</li>
+          <li>Manage source code, reviews, branching, and deployment workflows through GitHub Enterprise Cloud in an enterprise DevOps environment</li>
+          <li>Collaborate with source system, platform, security, and analytics teams to deliver reliable and cost effective data solutions on GCP</li>
         </ul>
         <div style="margin: 20px 0 16px; padding: 18px 20px; border-left: 3px solid rgba(224,184,106,0.5); background: rgba(224,184,106,0.04);">
           <div style="font-family: 'DM Mono', monospace; font-size: 10px; color: #E0B86A; letter-spacing: 3px; margin-bottom: 6px;">KEY PROJECT</div>
           <div style="font-family: 'DM Serif Display', serif; font-size: 16px; color: var(--white); margin-bottom: 4px;">ERIRP — Enterprise Revenue, Invoicing &amp; Reconciliation Platform</div>
-          <div style="font-family: 'DM Mono', monospace; font-size: 11px; color: #B8C3DC; margin-bottom: 14px; letter-spacing: 1px;">Python · Java · SQL · Pub/Sub · BigQuery · Cloud SQL · Airflow · GCP</div>
+          <div style="font-family: 'DM Mono', monospace; font-size: 11px; color: #D8E0F0; margin-bottom: 14px; letter-spacing: 1px;">Python · Java · SQL · Pub/Sub · BigQuery · Cloud SQL · Airflow · GCP</div>
           <ul class="exp-bullets">
-            <li>Develop and maintain batch and event-driven ingestion pipelines that securely collect, validate, and process data from enterprise source systems</li>
-            <li>Build data-processing workflows that transform raw BigQuery source tables into curated daily and monthly reporting datasets</li>
-            <li>Develop and optimize BigQuery SQL transformations and PySpark jobs on Dataproc for high-volume data workloads</li>
+            <li>Develop and maintain batch and event based ingestion pipelines that securely collect, validate, and process data from enterprise source systems</li>
+            <li>Build data processing workflows that transform raw BigQuery source tables into curated daily and monthly reporting datasets</li>
+            <li>Develop and optimize BigQuery SQL transformations and PySpark jobs on Dataproc for high volume data workloads</li>
             <li>Use Pub/Sub for asynchronous messaging and Cloud SQL for operational metadata, pipeline controls, and supporting application data</li>
-            <li>Develop Java and Python components for ingestion, transformation, validation, and service-integration requirements</li>
-            <li>Design end-to-end workflows using Apache Airflow and Cloud Composer, providing reliable scheduling, monitoring, recovery, and auditability</li>
+            <li>Develop Java and Python components for ingestion, transformation, validation, and service integration requirements</li>
+            <li>Design complete workflows using Apache Airflow and Cloud Composer, providing reliable scheduling, monitoring, recovery, and auditability</li>
             <li>Test REST endpoints, payloads, authentication flows, and integration responses using Postman</li>
-            <li>Support Development, QA, and Production configurations with automated testing, secure configuration, and controlled secrets management</li>
-            <li>Collaborate with upstream source-system teams and downstream analytics consumers to deliver scalable, reliable, and cost-optimized GCP solutions</li>
+            <li>Build GitHub Actions workflows that automate code validation, testing, and deployments through GitHub Enterprise Cloud</li>
+            <li>Support development, QA, and production configurations with automated testing, secure configuration, and controlled secrets management</li>
+            <li>Collaborate with upstream source system teams and downstream analytics consumers to deliver scalable, reliable, and cost effective GCP solutions</li>
           </ul>
         </div>
         <div class="exp-stack">
@@ -750,6 +759,9 @@
           <span class="stack-tag">Cloud Composer</span>
           <span class="stack-tag">pytest</span>
           <span class="stack-tag">GitHub Enterprise</span>
+          <span class="stack-tag">GitHub Enterprise Cloud</span>
+          <span class="stack-tag">GitHub Actions</span>
+          <span class="stack-tag">CI/CD</span>
           <span class="stack-tag">IntelliJ IDEA</span>
           <span class="stack-tag">REST APIs</span>
           <span class="stack-tag">Postman</span>
@@ -884,9 +896,9 @@
         <a href="https://github.com/AshBornCommander/AshBorn-Core" target="_blank" class="project-link">View on GitHub</a>
       </div>
       <div class="project-card" style="grid-column: 1 / -1;">
-        <div class="project-type">Confidential · Full-Stack · AI-Enabled Cloud Platform</div>
+        <div class="project-type">Confidential · Full Stack · AI Enabled Cloud Platform</div>
         <div class="project-name">Confidential Private Project</div>
-        <p class="project-desc">Architecting and developing a secure, AI-enabled full-stack platform with a React frontend, FastAPI backend, PostgreSQL data layer, integrated payment processing, transactional email delivery, product analytics, error monitoring, and cloud-based infrastructure. Implemented secure API integrations, secrets management, scalable deployment, and production observability. Additional project and architecture details are available upon request.</p>
+        <p class="project-desc">Architecting and developing a secure full stack platform with a React frontend, FastAPI backend, PostgreSQL data layer, AI capabilities, payment processing, transactional email delivery, product analytics, error monitoring, and cloud infrastructure. The platform includes secure API integrations, managed secrets, scalable deployments, and production observability. Additional project and architecture details are available upon request.</p>
         <div class="exp-stack" style="margin-bottom:18px;">
           <span class="stack-tag">React</span>
           <span class="stack-tag">FastAPI</span>
